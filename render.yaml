@@ -9,6 +9,7 @@ services:
         value: credentials.json
       - key: PYTHONUNBUFFERED
         value: "1"
+      - key: PYTHON_VERSION
+        value: "3.11"
     healthCheckPath: /
     plan: free
-

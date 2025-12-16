@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "silver-treat-480413-j6",
+  "private_key_id": "c5c4069910eef472baf8cfd5decac94b09db6495",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqyyVaYycj1rrw\nTsQk1AfOoPgKneSOguWoz35C/0d4inVfeW1nmmGFp2amNekFoAdsFNJzh4fNtkIS\nYpVL7ul58+yrtM1nRCh8oLqUmd2ZYyL8AWjRpH86tuvvQoHWW9cK7XHTLLM+t9mK\n1v3VEVhuE1geVyzeUrflBYAR2OVSjF6cXxWzIAFpnNJoeHAf5u96fu0mBHNz1n8f\nxrBYG61pfjk3Gd5rBhPvAFC2VFKJM8IetT2S4CVO5p4IQeVnLyRiQXXkXPvVe056\nNU/7osESuKO0IVhVVCeJ6p0TgIKhJmaDFwHKd6jrWl+DPK3imlWXHdKm52fADtC2\nlRR/ACehAgMBAAECggEAGuAsMNC8+jwCPynZ3iS6VMbKOVt2uYE6E+oQx4ilrb91\n8E/qihzGP1KkCcAeerrfqB+PrUvUsCd/tqZqMWB3P3BFnBBvqRIV3+Sn75XVw9sQ\niIDNRn4A4lOiBUydI0bg7DCIko8sZpBmLF2f5E0eMfYbzexwXEy+cMzAhi5wCaDY\niKXYxdXHNCsWKF1qPF1LXJCIseHvkFO+THSsLPsfKRSsIWvk0V/wZ1408575vf9X\ncgUDJWbJ1fcdDM00Uqc+nLT6hqy/Ov2uOpUJLx/BY3OegoCdSC8piVaa0F8atHBh\nm3KE5O4qCapk0vKggJR0YGVcDFhbVL1lr75dgVEKxQKBgQDiLH09bhNPOxJWHuqA\ntpzToIJ0vwPIWEK3lWp1yHOZBwHSGgaeu+HNjIQOv+bYG9PWrDwqK2Zc+ZNmFRfg\nx1QP0eaOKqD2c6vmt6v+rsML1fnvsiPLECxHWi5iWSmlW8/uyU4YeSyqAAfKCItL\nJZum4i3Uh+CxzMpXCk/4J+5YRQKBgQDBUQxJ+3iXTJOZn7WTeFHHpzl2Nrempsya\nlgv1T9JGvAQ9HBG47bWioMCzb4zaPa+3e3j6hUjJhlWbgdaAhdOW46LbXzh+zQ6F\nKccNtsXkHJEtdFTMxI7rXQD+SgOtrTj53i9/wARxCz9btl7C7lIMKlD/piMvb0yh\ntcBV1VcNrQKBgQC49uFFR6wK86g/PfFRagY/G9kUWNJjGasWL99si43d69kVVats\nTQKQ8wVcepvyyG8p9JkPc4a3KnPc3As3DEw209XVFg+k/VvrxvGlyo5AM7G+0NRs\n0MElaR7d10Uzsi4Ofhqb8R0RugyksPAZeJwekoIgeS7MuUoQfKKBs0Y8cQKBgQC/\njv1bbimv2zzDVOQLjoWTDpy9DDltlQlYAWk2G3OljfexSlgxZLPAxARPijELrWaq\nrVpS/LIEp+26m60fS/1AHq+pK7ECzVUfFSfe6gcsJDaj0QuaoQdyKIWsdVExz12P\nE+EDeRWtotSUn6FFDf0VevUqbsmc3nAUKdK9+xo5PQKBgA6aUnLQ8n7DG17hI9lM\nh1bEivDh+c99L4iTmObiS9xDz+NFkr32mSpSN8gVqQ7zSOMhlaQaZv5T50QbHV2m\nLPEX6KFdomTLtKWUXET2cV064wclpvkEcAdrDeyDhgWaQXFGL2iITmJCexRURc7K\nrIRch5ShuE1BVgmCKD197plL\n-----END PRIVATE KEY-----\n",
+  "client_email": "propagandasepbot@silver-treat-480413-j6.iam.gserviceaccount.com",
+  "client_id": "107498750910191481999",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/propagandasepbot%40silver-treat-480413-j6.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

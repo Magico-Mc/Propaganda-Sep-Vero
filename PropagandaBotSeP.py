@@ -50,11 +50,28 @@ MODULI_MSG_IDS = []
 
 APPROVAL_MSG_IDS = []
 
+import json
+import gspread
+from google.oauth2.service_account import Credentials
+
 def setup_google_sheets():
-    scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-    creds = Credentials.from_service_account_file(JSON_FILE, scopes=scope)
-    client = gspread.authorize(creds)
-    return client
+    scope = [
+        "https://spreadsheets.google.com/feeds",
+        "https://www.googleapis.com/auth/drive"
+    ]
+
+    creds_json = os.environ.get("GOOGLE_CREDENTIALS_JSON")
+    if not creds_json:
+        raise Exception("GOOGLE_CREDENTIALS_JSON non impostata")
+
+    creds_dict = json.loads(creds_json)
+
+    creds = Credentials.from_service_account_info(
+        creds_dict,
+        scopes=scope
+    )
+
+    return gspread.authorize(creds)
 
 def get_foglio2():
     client = setup_google_sheets()
@@ -1191,3 +1208,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

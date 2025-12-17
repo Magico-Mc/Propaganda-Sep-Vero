@@ -29,7 +29,6 @@ TOKEN = "8210953537:AAHUJ91xoz3pIzvgboAwy86ka__hn-ZiHq8"
 GROUP_ID = -1003382688506
 PRE_MEMBERS_GROUP_ID = -1002324732088
 GOOGLE_SHEET_ID = "1_w5dSHcW5dopBh16PI2LdMvqgEomR3ct0PGXfJxmL4Y"
-JSON_FILE = os.environ.get('GOOGLE_CREDENTIALS_FILE', 'credentials.json')
 
 PRE_MEMBERS_LINK = "https://t.me/+063MK8B8OeQ0Y2Nk"
 
@@ -1208,4 +1207,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

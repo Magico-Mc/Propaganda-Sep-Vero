@@ -1,5 +1,5 @@
 services:
-  - type: web
+  - type: worker
     name: propaganda-bot
     runtime: python
     buildCommand: pip install -r requirements.txt
@@ -11,6 +11,6 @@ services:
         value: "1"
       - key: PYTHON_VERSION
         value: "3.11.11"
-    healthCheckPath: /
     plan: free
+
 
